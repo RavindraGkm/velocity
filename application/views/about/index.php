@@ -91,7 +91,8 @@
     <div class="container min-hight">
         <div class="row margin-bottom-40">
             <div class="col-md-12 col-sm-12">
-                <div class="search-result-item about about-bg">
+                <div class="search-result-item about">
+                    <img src="<?php echo base_url('assets/img/topbanners/about.png');?>" class="img img-responsive">
                 </div><br>
                 <div class="search-result-item about">
                     <h4>

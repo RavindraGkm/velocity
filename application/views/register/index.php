@@ -6,7 +6,7 @@
     <?php
     echo link_tag('assets/css/font-awesome.min.css');
     echo link_tag('assets/css/bootstrap.min.css');
-//    echo link_tag('assets/css/rs-style.css');
+    echo link_tag('assets/css/rs-style.css');
     echo link_tag('assets/css/settings.css');
     echo link_tag('assets/css/style-metronic.css');
     echo link_tag('assets/css/style.css');
@@ -92,7 +92,8 @@
     <div class="container min-hight">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <div class="search-result-item about register-bg">
+                <div class="search-result-item">
+                    <img src="<?php echo base_url('assets/img/topbanners/register.png');?>" class="img img-responsive">
                 </div>
             </div>
         </div>

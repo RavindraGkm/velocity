@@ -79,24 +79,26 @@
 </div>
 <div class="page-container">
     <div class="container">
-        <div class="row banner-row">
-            <div class="fullwidthbanner-container slider-main">
-                <div class="fullwidthabnner " style="height: 350px !important;">
-                    <ul id="revolutionul" style="">
-                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                            <img src="<?php echo base_url('assets/img/banner/banner1.png');?>" class="img img-responsive banner1-img" alt="">
-                        </li>
-                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                            <img src="<?php echo base_url('assets/img/banner/banner2.png');?>" class="img img-responsive banner1-img" alt="">
-                        </li>
-                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                            <img src="<?php echo base_url('assets/img/banner/banner3.png');?>" class="img img-responsive banner3-img" alt="">
-                        </li>
-                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                            <img src="<?php echo base_url('assets/img/banner/banner4.png');?>" class="img img-responsive banner1-img" alt="">
-                        </li>
-                    </ul>
-                    <div class="tp-bannertimer tp-bottom"></div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12" style="">
+                <div class="fullwidthbanner-container slider-main ">
+                    <div class="fullwidthabnner ">
+                        <ul id="revolutionul" style="">
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
+                                <img src="<?php echo base_url('assets/img/banner/banner1.png');?>" class="img img-responsive banner1-img" alt="">
+                            </li>
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
+                                <img src="<?php echo base_url('assets/img/banner/banner2.png');?>" class="img img-responsive banner1-img" alt="">
+                            </li>
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
+                                <img src="<?php echo base_url('assets/img/banner/banner3.png');?>" class="img img-responsive banner3-img" alt="">
+                            </li>
+                            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
+                                <img src="<?php echo base_url('assets/img/banner/banner4.png');?>" class="img img-responsive banner1-img" alt="">
+                            </li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -152,32 +154,32 @@
                                 <div class="row image_slider4">
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'>
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/air_india.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/air_india.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'>
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/bhandariassociate.png');?>"alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/bhandariassociate.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s' >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/Datwyler_Pharma_Packaging_India_Pvt_Ltd.png');?>" height="100px" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/Datwyler_Pharma_Packaging_India_Pvt_Ltd.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s' >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/dreams-logo-539.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/dreams-logo-539.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s' >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/EXCELLENCE_SHELTERS_PVT_LIT.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/EXCELLENCE_SHELTERS_PVT_LIT.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s' >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/GOLDEN_SPARRO_LOGO.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/GOLDEN_SPARRO_LOGO.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -186,66 +188,32 @@
                                 <div class="row image_slider4">
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/HAGER_LOGO.png');?>"  alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/HAGER_LOGO.png');?>" class="img img-responsive"  alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/ICFAI_LOGO.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/ICFAI_LOGO.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/INVENSYS.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/INVENSYS.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/mantra_properties.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/mantra_properties.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/matrix cellular.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/matrix cellular.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/max bupa.png');?>" alt="...">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="row image_slider4">
-                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
-                                        <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/remonesa logo.png');?>"  height="95"  alt="...">
-                                        </div>
-                                    </div>
-                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
-                                        <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/pandit javdekar.png');?>" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
-                                        <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/parmar construction.png');?>" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
-                                        <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/puraniks logo.png');?>" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
-                                        <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/ROTERTSHAW.png');?>" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
-                                        <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/saarrthi group.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/max bupa.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -254,32 +222,32 @@
                                 <div class="row image_slider4">
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/shinhan bank.png');?>"  height="95"  alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/remonesa logo.png');?>" class="img img-responsive"  alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/steelcase.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/pandit javdekar.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/sterling holidays.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/parmar construction.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/TNTELLISWIFT.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/puraniks logo.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/ROTERTSHAW.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/ROTERTSHAW.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/unitech soluction pvt lit.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/saarrthi group.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -288,17 +256,51 @@
                                 <div class="row image_slider4">
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/venkatesh bhoomi.png');?>"  height="95"  alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/shinhan bank.png');?>"  class="img img-responsive"  alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/vistacore venture.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/steelcase.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                     <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
                                         <div class='lightbox-item'>
-                                            <img src="<?php echo base_url('assets/img/clients/vmk constructions.png');?>" alt="...">
+                                            <img src="<?php echo base_url('assets/img/clients/sterling holidays.png');?>" class="img img-responsive" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
+                                        <div class='lightbox-item'>
+                                            <img src="<?php echo base_url('assets/img/clients/TNTELLISWIFT.png');?>" class="img img-responsive" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
+                                        <div class='lightbox-item'>
+                                            <img src="<?php echo base_url('assets/img/clients/ROTERTSHAW.png');?>" class="img img-responsive" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
+                                        <div class='lightbox-item'>
+                                            <img src="<?php echo base_url('assets/img/clients/unitech soluction pvt lit.png');?>" class="img img-responsive" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row image_slider4">
+                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
+                                        <div class='lightbox-item'>
+                                            <img src="<?php echo base_url('assets/img/clients/venkatesh bhoomi.png');?>"  class="img img-responsive"  alt="...">
+                                        </div>
+                                    </div>
+                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
+                                        <div class='lightbox-item'>
+                                            <img src="<?php echo base_url('assets/img/clients/vistacore venture.png');?>" class="img img-responsive" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class='col-md-2 col-sm-4 col-xs-6 c-item i-m-g-s'  >
+                                        <div class='lightbox-item'>
+                                            <img src="<?php echo base_url('assets/img/clients/vmk constructions.png');?>" class="img img-responsive" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -332,6 +334,7 @@
     echo script_tag('assets/js/jquery-1.10.2.min.js');
     echo script_tag('assets/js/bootstrap.min.js');
     echo script_tag('assets/js/jquery-migrate-1.2.1.min.js');
+    echo script_tag('assets/js/hover-dropdown.js');
     echo script_tag('assets/js/back-to-top.js');
     echo script_tag('assets/js/jquery.fancybox.pack.js');
     echo script_tag('assets/js/jquery.themepunch.plugins.min.js');

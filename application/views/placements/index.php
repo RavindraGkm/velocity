@@ -91,11 +91,17 @@
             </div>
         </div>
     </div>
-    <div class="container min-hight ">
+    <div class="container">
         <div class="row margin-bottom-40">
-            <div class="col-md-12 col-sm-12">
-                <div class="search-result-item about placements-bg">
-                </div><br/><br/>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="search-result-item">
+                    <img src="<?php echo base_url('assets/img/topbanners/placements.png');?>" class="img img-responsive">
+                </div>
+                <br/>
+            <div>
+        </div>
+        <div class="row margin-bottom-40">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="search-result-item about">
                     <div class="col-md-12">
                         <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">

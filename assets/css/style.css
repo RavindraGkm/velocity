@@ -745,12 +745,12 @@ Header and header elements.
 Slider
 ***/
 .slider-main {
-    z-index: 1;
-    position: relative;
-    border-bottom: solid 1px #eee;
-    max-height:450px !important;
-    overflow:hidden;
-    margin-bottom: 10px;
+    /*z-index: 1;*/
+    /*position: relative;*/
+    /*border-bottom: solid 1px #eee;*/
+    /*max-height:450px !important;*/
+    /*overflow:hidden;*/
+    /*margin-bottom: 10px;*/
 }
 .slide_title_white {
     font-family: 'Open Sans';
@@ -3262,10 +3262,12 @@ Slider
     z-index: 1;
     position: relative;
     border-bottom: solid 1px #eee;
-    max-width: 1180px !important;
+    max-width: 1200px !important;
     max-height:350px !important;
     overflow:hidden;
     margin-bottom: 10px;
+    /*margin-left: -15px !important;*/
+    /*margin-right: -15px !important;*/
 }
 /*Original css*/
 /*.slider-clients-main {*/
@@ -3366,18 +3368,52 @@ Slider
 .tp-leftarrow.default {
     background: url(../img/sliders/revolution/arrow_left.png) no-repeat center !important;
     /*background: #d2d7dc url(../img/sliders/revolution/arrow_left.png) no-repeat center !important;*/
-    width:50px !important;
-    height:50px !important;
-    top: 175px !important;
+    width:30px !important;
+    height:30px !important;
+    top: 50% !important;
 }
 
 .tp-rightarrow.default {
     background:  url(../img/sliders/revolution/arrow_right.png) no-repeat center !important;
     /*background:  #d2d7dc url(../img/sliders/revolution/arrow_right.png) no-repeat center !important;*/
-    width:50px !important;
-    height:50px !important;
-    border-radius: 50%;
-    top: 175px !important;
+    width:30px !important;
+    height:30px !important;
+    /*border-radius: 50%;*/
+    top: 50% !important;
+}
+
+@media (max-width: 767px) {
+    .tp-leftarrow.default {
+        background: url(../img/sliders/revolution/arrow_left.png) no-repeat center !important;
+        /*background: #d2d7dc url(../img/sliders/revolution/arrow_left.png) no-repeat center !important;*/
+        width:30px !important;
+        height:30px !important;
+        top: 50% !important;
+    }
+
+    .tp-rightarrow.default {
+        background:  url(../img/sliders/revolution/arrow_right.png) no-repeat center !important;
+        /*background:  #d2d7dc url(../img/sliders/revolution/arrow_right.png) no-repeat center !important;*/
+        width:30px !important;
+        height:30px !important;
+        top: 50% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .tp-leftarrow.default {
+        background: url(../img/sliders/revolution/arrow_left.png) no-repeat center !important;
+        width:30px !important;
+        height:30px !important;
+        top: 50% !important;
+    }
+
+    .tp-rightarrow.default {
+        background:  url(../img/sliders/revolution/arrow_right.png) no-repeat center !important;
+        width:30px !important;
+        height:30px !important;
+        top: 50% !important;
+    }
 }
 
 /***

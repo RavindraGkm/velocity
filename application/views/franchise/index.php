@@ -89,11 +89,15 @@
         </div>
     </div>
     <div class="container min-hight">
-        <div class="row margin-bottom-40">
-            <div class="col-md-12 col-sm-12">
-                <div class="search-result-item about franchise-bg">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 margin-bottom-40">
+                <div class="search-result-item">
+                    <img src="<?php echo base_url('assets/img/topbanners/franchise.png');?>" class="img img-responsive">
                 </div>
-                <br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
                 <div class="search-result-item about">
                     <p>We now offer you to be a part of our growing family, by becoming our franchisee. Out aim is to increase our overall presence .If you are motivated and willing to join us . We offer a unique plug and play model with great benefits .To knows more connect with us.</p><br />
                 </div>
