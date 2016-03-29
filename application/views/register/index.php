@@ -101,7 +101,7 @@
             <div class="col-md-offset-3 col-md-6 col-sm-8">
                 <h2>Registration Form</h2>
                 <div class="space20"></div>
-                <form action="<?php echo base_url('register-email');?>" class="horizontal-form margin-bottom-40" role="form" method="post">
+                <form enctype="multipart/form-data" action="<?php echo base_url('register-email');?>" class="horizontal-form margin-bottom-40" role="form" method="post">
                     <div class="form-group">
                         <label class="control-label">Name*</label>
                         <div>
