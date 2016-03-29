@@ -103,33 +103,38 @@
             <div class="col-md-9 col-sm-9">
                 <h2>Contact Form</h2>
                 <div class="space20"></div>
-                <form action="" class="horizontal-form margin-bottom-40" role="form" method="post">
+<!--                <form action="--><?php //echo base_url('contact-message');?><!--" id="form_contactus" role="form" method="POST" class="horizontal-form margin-bottom-40">-->
+                <form enctype="multipart/form-data" action="<?php echo base_url('contact-message');?>" class="horizontal-form margin-bottom-40" role="form" method="post">
                     <div class="form-group">
                         <label class="control-label">Name</label>
-                        <div>
-                            <input type="text" class="form-control" name="name" />
+                        <div class="pos-relative">
+                            <input type="text" class="form-control" name="name" id="name" />
+                            <span class="error-span" data-error-for="name"></span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label" >Email</label>
-                        <div>
-                            <input type="text" class="form-control" name="email" >
+                        <div class="pos-relative">
+                            <input type="text" class="form-control" name="email" id="email" >
+                            <span class="error-span" data-error-for="email"></span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label" >Mobile</label>
-                        <div>
-                            <input type="text" class="form-control" name="mobile" >
+                        <div class="pos-relative">
+                            <input type="text" class="form-control" name="mobile" id="mobile">
+                            <span class="error-span" data-error-for="mobile"></span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label" >Message</label>
-                        <div>
-                            <textarea class="form-control" rows="8" name="msg"></textarea>
+                        <div class="pos-relative">
+                            <textarea class="form-control" rows="8" name="contact_message" id="contact_message"></textarea>
+                            <span class="error-span" data-error-for="contact_message"></span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-default theme-btn"><i class="icon-ok"></i> Send</button>
+                        <button type="submit" id="send_message_button" class="btn btn-default theme-btn"><i class="icon-ok"></i> Send</button>
                         <button type="button" class="btn btn-default">Cancel</button>
                     </div>
                 </form>
@@ -139,19 +144,17 @@
                 <address>
                     <strong>Head Office.</strong><br>
                     <strong>Velocity Placements</strong><br>
-                    Regus Mumbai, <br>
+                    Level 2, <br>
                     Connaught Place, <br>
                     Bund Garden Road, <br>
-                    Pune,411001, India.
+                    Pune,411001, Maharashtra, India.
                 </address>
                 <address>
                     <strong>Branch Office.</strong><br>
                     <strong>Velocity Placements</strong><br>
-                    Regus Mumbai, <br>
-                    9th Floor, G Block, Plot C 59, <br>
-                    Platina Building, <br>
-                    Bandra Kurla Complex, <br>
-                    Bandra East, Mumbai, Maharashtra 400051
+                    Trade Centre G/F &amp; 1st Floor, <br>
+                    Bandra East,<br>
+                    Mumbai, 400051, Maharashtra, India.
                 </address>
                 <address>
                     <p><i class="fa fa-phone"></i>&nbsp;: 020 4014 7555.&nbsp;/ &nbsp;<i class="fa fa-mobile-phone"></i>&nbsp;: 91 952785400.</p>
@@ -192,10 +195,12 @@ echo script_tag('assets/js/jquery-migrate-1.2.1.min.js');
 echo script_tag('assets/js/back-to-top.js');
 //echo script_tag('assets/js/app.js');
 echo script_tag('assets/js/index.js');
+echo script_tag('assets/js/jquery.validate.min.js');
+//echo script_tag('assets/js/contactus.js');
 ?>
 <script type="text/javascript">
     jQuery(document).ready(function() {
-
+//        new VC.Index("<?php //echo base_url();?>//");
     });
 </script>
 </body>

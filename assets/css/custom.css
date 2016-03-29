@@ -328,3 +328,7 @@ div.div-img img{
     width:100% !important;
     /*height: 350px !important;*/
 }
+
+.error-span {
+    color:#E63534;
+}

@@ -59,5 +59,6 @@ $route['clients'] = "Clients_controller";
 $route['placements'] = "Placements_controller";
 $route['register'] = "Register_controller";
 $route['register-email'] = "Register_controller/send_email";
+$route['contact-message'] = "Contact_controller/send_email";
 
 $route['translate_uri_dashes'] = FALSE;
