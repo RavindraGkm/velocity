@@ -80,10 +80,10 @@
 <div class="page-container">
     <div class="row breadcrumbs margin-bottom-40">
         <div class="container">
-            <div class="col-md-4 col-sm-4">
-                <h1>Velocity Placements - Contact Us</h1>
+            <div class="col-md-6 col-sm-8 col-xs-12">
+                <h1>Velocity Placement Services - Contact Us</h1>
             </div>
-            <div class="col-md-8 col-sm-8">
+            <div class="col-md-6 col-sm-4 col-xs-12">
                 <ul class="pull-right breadcrumb">
                     <li><a href="<?php echo base_url('');?>">Home</a></li>
                     <li class="active">Contact Us</li>
@@ -157,8 +157,8 @@
                     Mumbai, 400051, Maharashtra, India.
                 </address>
                 <address>
-                    <p><i class="fa fa-phone"></i>&nbsp;: 020 4014 7555.&nbsp;/ &nbsp;<i class="fa fa-mobile-phone"></i>&nbsp;: 91 952785400.</p>
-                    <p><i class="fa fa-envelope"></i>&nbsp;: hr@velocityplacement.com</p>
+                    <p><i class="fa fa-phone"></i>&nbsp;: 020 4014 7555 &nbsp;&nbsp;<i class="fa fa-mobile-phone"></i>&nbsp;: 91 95279-85400</p>
+                    <p><a href="mailto:hr@velocityplacement.com" class="a-mailto"><i class="fa fa-envelope"></i>&nbsp;: hr@velocityplacement.com</a></p>
                 </address>
                 <div class="clearfix margin-bottom-30"></div>
                 <h2>&nbsp;</h2>

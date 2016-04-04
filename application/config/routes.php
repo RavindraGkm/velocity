@@ -60,5 +60,7 @@ $route['placements'] = "Placements_controller";
 $route['register'] = "Register_controller";
 $route['register-email'] = "Register_controller/send_email";
 $route['contact-message'] = "Contact_controller/send_email";
+$route['admin'] = "Admin_controller";
+//$route['admin/add-branch'] = "Admin_controller/add_branch";
 
 $route['translate_uri_dashes'] = FALSE;

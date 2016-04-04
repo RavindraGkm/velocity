@@ -82,12 +82,12 @@
     <div class="row breadcrumbs margin-bottom-40">
         <div class="container">
             <div class="col-md-6 col-sm-8 col-xs-12">
-                <h1>Velocity Placement Services - Register</h1>
+                <h1>Velocity Placement Services - Admin Panel</h1>
             </div>
             <div class="col-md-6 col-sm-4 col-xs-12">
                 <ul class="pull-right breadcrumb">
                     <li><a href="<?php echo base_url('');?>">Home</a></li>
-                    <li class="active">Register</li>
+                    <li class="active">Admin Panel</li>
                 </ul>
             </div>
         </div>
@@ -102,25 +102,13 @@
         </div>
         <div class="row">
             <div class="col-md-offset-3 col-md-6 col-sm-8">
-                <h2>Registration Form</h2>
+                <h2>Admin Manage Branch office</h2>
                 <div class="space20"></div>
-                <form enctype="multipart/form-data" action="<?php echo base_url('register-email');?>" class="horizontal-form margin-bottom-40" role="form" method="post">
+                <form class="horizontal-form margin-bottom-40" role="form" method="post">
                     <div class="form-group">
-                        <label class="control-label">Name*</label>
+                        <label class="control-label">Branch Office Name*</label>
                         <div>
-                            <input type="text" class="form-control" name="name" id="name"/>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >Email*</label>
-                        <div>
-                            <input type="text" class="form-control" name="email" id="email">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label" >Mobile*</label>
-                        <div>
-                            <input type="text" class="form-control" name="mobile" id="mobile">
+                            <input type="text" class="form-control" name="branch_office_name" id="branch_office_name"/>
                         </div>
                     </div>
                     <div class="form-group">
@@ -134,13 +122,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label" >Resume</label>
-                        <div class="fg-line pos-relative">
-                            <input type="file" class="btn btn-default theme-btn" name="resume_file" id="resume_file" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-default theme-btn"><i class="icon-ok"></i> Register </button>
+                        <button type="button" class="btn btn-default theme-btn" name="btn-save-branch" id="btn-save-branch"><i class="icon-ok"></i> Save Branch </button>
                         <button type="button" class="btn btn-default">Cancel</button>
                     </div>
                 </form>
@@ -178,6 +160,13 @@ echo script_tag('assets/js/index.js');
 ?>
 <script type="text/javascript">
     jQuery(document).ready(function() {
+        $("#btn-save-branch").click(function(){
+            var branchName = $('#branch_office_name').val();
+            var saveBranch = $('#btn-save-branch');
+            $('#location').append("<option value="+branchName+">"+branchName+"</option>");
+            saveBranch.html('Saving...');
+
+        });
     });
 </script>
 </body>

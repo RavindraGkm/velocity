@@ -37,61 +37,21 @@ div h4 span {
 /*}*/
 
 .logo-v1>img {
-    height: 45px;
-    margin-top: 0px !important;
+    height: 60px;
+    margin-top: -8px !important;
 }
-
-@media (max-width: 767px) {
-    .logo-v1>img {
-        height: 35px;
-        margin-top: 0px !important;
-    }
-}
-
 
 @media (max-width: 992px) {
     .logo-v1>img {
-        height: 35px;
-        margin-top: 0px !important;
+        height: 42px;
+        margin-top: -10px !important;
     }
 }
-
-div.placements-bg {
-    /*background: url("../img/pp.png") no-repeat;*/
-    background: url("../img/topbanners/placements.png") no-repeat;
-    height: 350px;
-    width: auto;
-    padding-left: 100px;
-}
-div.about-bg {
-    background: url("../img/topbanners/about.png") no-repeat;
-    height: 350px;
-    width: auto;
-    padding-left: 100px;
-}
-div.contact-bg {
-    background: url("../img/topbanners/contact-us.png") no-repeat;
-    height: 350px;
-    width: auto;
-    padding-left: 100px;
-}
-div.franchise-bg {
-    background: url("../img/topbanners/franchise.png") no-repeat;
-    height: 350px;
-    width: auto;
-    padding-left: 100px;
-}
-div.register-bg {
-    background: url("../img/topbanners/register.png") no-repeat;
-    height: 350px;
-    width: auto;
-    padding-left: 100px;
-}
-div.clients-bg {
-    background: url("../img/topbanners/clients.png") no-repeat;
-    height: 350px;
-    width: auto;
-    padding-left: 100px;
+@media (max-width: 767px) {
+    .logo-v1>img {
+        height: 35px;
+        margin-top: -5px !important;
+    }
 }
 div.services-bg {
     background: url("../img/topbanners/services.png") no-repeat;
@@ -331,4 +291,14 @@ div.div-img img{
 
 .error-span {
     color:#E63534;
+}
+
+a.a-mailto{
+    /*color:#0DA3E2;*/
+    color:#333;
+}
+
+a.a-mailto:hover{
+    /*color:#0DA3E2;*/
+    color:#333;
 }

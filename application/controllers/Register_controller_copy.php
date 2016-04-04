@@ -19,12 +19,8 @@ class Register_controller extends CI_Controller {
 //            $message = 'This is body of the message';
             $reg_id =strtoupper(substr(hash('sha256',time()), 0, 8));
             $reg_number='VP-'.$reg_id;
-//            $message = 'Name: '.$_POST['name'].', and Registration no is: '.$reg_number.', Mobile number: '.$_POST['mobile'].', Location: '.$_POST['location'].'<br/> Thanks for registration in Velocity Placement.';
-            $name = 'Name: '.$_POST['name'];
-            $registration_no='Registration no is: '.$reg_number;
-            $mobile='Mobile number: '.$_POST['mobile'];
-            $for_location='Location: '.$_POST['location'];
-            $message = 'Thanks and Regards for registration in Velocity Placement.';
+            $message = 'Name: '.$_POST['name'].', and Registration no is: '.$reg_number.', Mobile number: '.$_POST['mobile'].', Location: '.$_POST['location'].'<br/> Thanks for registration in Velocity Placement.';
+            $messages = 'Thanks and Regards for registration in Velocity Placement.';
             $file_tmp_name = $_FILES['resume_file']['tmp_name'];
             $file_name = $_FILES['resume_file']['name'];
             $file_size = $_FILES['resume_file']['size'];
@@ -47,11 +43,8 @@ class Register_controller extends CI_Controller {
             $body = "--$boundary\r\n";
             $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
             $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-            $body .= chunk_split(base64_encode($name))."\r\n\r\n";
-            $body .= chunk_split(base64_encode($registration_no))."\r\n\r\n";
-//            $body .= chunk_split(base64_encode($mobile))."\r\n\r\n";
-//            $body .= chunk_split(base64_encode($for_location))."\r\n\r\n";
-            $body .= chunk_split(base64_encode($message));
+            $body .= chunk_split(base64_encode($message))."\r\n\r\n";
+            $body .= chunk_split(base64_encode($messages));
             $body .= "--$boundary\r\n";
             $body .="Content-Type: $file_type; name=\"$file_name\"\r\n";
             $body .="Content-Disposition: attachment; filename=\"$file_name\"\r\n";

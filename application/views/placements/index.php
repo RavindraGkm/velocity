@@ -83,10 +83,10 @@
 <div class="page-container">
     <div class="row breadcrumbs margin-bottom-40">
         <div class="container">
-            <div class="col-md-4 col-sm-4">
-                <h1>Velocity Placements - Placements</h1>
+            <div class="col-md-6 col-sm-8 col-xs-12">
+                <h1>Velocity Placement Services - Placements</h1>
             </div>
-            <div class="col-md-8 col-sm-8">
+            <div class="col-md-6 col-sm-4 col-xs-12">
                 <ul class="pull-right breadcrumb">
                     <li><a href="<?php echo base_url('');?>">Home</a></li>
                     <li class="active">Placements</li>
